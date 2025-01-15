@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A página ideal para promover produtos financeiros de alta qualidade, com design otimizado para maximizar conversões e comissões atrativas para afiliados.">
+    <meta name="keywords" content="produtos de finanças, compra segura, renda extra, investimentos, afiliados financeiros, marketing de afiliados, produtos para afiliados, ganhar dinheiro online, finanças pessoais, oportunidades de renda, comissões de afiliados">
+    <meta name="author" content="Jonas Costa">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <title>ProFinanceOnline</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">ProFinanceOnline</div>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#products">Produtos</a></li>
+                <li><a href="#testimonials">Depoimentos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <!-- Seção principal com destaque -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Transforme suas finanças hoje mesmo!</h1>
+                <p>Descubra soluções que realmente fazem a diferença na sua vida financeira. Qualidade garantida e segurança na compra.</p>
+                <a href="#products" class="cta-button">Ver Produtos</a>
+            </div>
+        </section>
+
+        <!-- Seção de produtos -->
+        <section id="products" class="products">
+            <h2>Produtos em Destaque</h2>
+            <div class="product-list">
+                <div class="product-item">
+                    <img src="/static/images/product1.jpg" alt="Produto 1">
+                    <h3>Produto 1</h3>
+                    <p>Solução incrível para organizar suas finanças. Confira agora!</p>
+                    <a href="#" class="buy-button">Comprar Agora</a>
+                </div>
+                <div class="product-item">
+                    <img src="/static/images/product2.jpg" alt="Produto 2">
+                    <h3>Produto 2</h3>
+                    <p>Aprenda a investir e conquistar seus objetivos financeiros. Não perca!</p>
+                    <a href="#" class="buy-button">Comprar Agora</a>
+                </div>
+                <div class="product-item">
+                    <img src="/static/images/product3.jpg" alt="Produto 3">
+                    <h3>Produto 3</h3>
+                    <p>Dicas essenciais para economizar e multiplicar sua renda.</p>
+                    <a href="#" class="buy-button">Comprar Agora</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de depoimentos -->
+        <section id="testimonials" class="testimonials">
+            <h2>O que os clientes dizem</h2>
+            <div class="testimonial-list">
+                <div class="testimonial-item">
+                    <p>"Segui as dicas e minha vida financeira mudou para melhor!"</p>
+                    <span>- Cliente Satisfeito</span>
+                </div>
+                <div class="testimonial-item">
+                    <p>"Conteúdo prático e fácil de aplicar. Recomendo!"</p>
+                    <span>- Comprador Feliz</span>
+                </div>
+                <div class="testimonial-item">
+                    <p>"Aprendi a investir e agora vejo meu dinheiro render."</p>
+                    <span>- Usuário Fiel</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de contato -->
+        <section id="contact" class="contact">
+            <h2>Entre em Contato</h2>
+            <p>Tem dúvidas? Fale conosco através do formulário abaixo:</p>
+            <form action="/submit-contact" method="post">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Minha Loja Financeira. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
